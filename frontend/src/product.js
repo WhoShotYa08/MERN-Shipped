@@ -10,7 +10,7 @@ export const products = [
     price: 0,
     countInStock: 0,
     rating: 4.2,
-    numReviews: 0,
+    numReviews: 1
   },
   {
     id: "2",
@@ -23,7 +23,7 @@ export const products = [
     price: 4703.18,
     countInStock: 15,
     rating: 0,
-    numReviews: 0,
+    numReviews: 1,
   },
   {
     id: "3",
@@ -36,7 +36,7 @@ export const products = [
     price: 940.50,
     countInStock: 3,
     rating: 2.6,
-    numReviews: 0,
+    numReviews: 1,
   },
   {
     id: "4",
@@ -49,7 +49,7 @@ export const products = [
     price: 37475.50,
     countInStock: 3,
     rating: 5,
-    numReviews: 0,
+    numReviews: 1,
   },
   {
     id: "5",
@@ -62,7 +62,7 @@ export const products = [
     price: 940.50,
     countInStock: 3,
     rating: 5,
-    numReviews: 0,
+    numReviews: 1,
   },
   {
     id: "6",
@@ -75,6 +75,6 @@ export const products = [
     price: 940.50,
     countInStock: 3,
     rating: 4.5,
-    numReviews: 0,
+    numReviews: 1,
   },
 ];

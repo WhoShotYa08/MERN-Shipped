@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import Rating from "./Rating";
 
 export default function Product({ products }) {
-  const { id, name, image, price, rating } = products;
+  const { id, name, image, price, rating, numReviews } = products;
 
   return (
     <Tilt>
@@ -21,7 +21,7 @@ export default function Product({ products }) {
           </Link>
 
           <Card.Text as={'div'}>
-            <Rating value={rating} text={'hello world'}/>
+            <Rating value={rating} text={`${numReviews} Reviews`}/>
           </Card.Text>
           <Card.Title as="h3">R {price}</Card.Title>
         </Card.Body>
