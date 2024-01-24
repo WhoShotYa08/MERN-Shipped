@@ -1,4 +1,4 @@
-import { FaStar, FaStarHalfAlt color='yellow', FaRegStar } from "react-icons/fa";
+import { FaStar, FaStarHalfAlt, FaRegStar } from "react-icons/fa";
 
 export default function Rating({ value, text }) {
   return (
